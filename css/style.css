@@ -25,24 +25,47 @@ ol {
 
 /* ====================== header part start ================== */
 .menu{
-    background:royalblue;
+    background:#ddd;
     line-height: 50px;
-    text-align:center;
+    text-align: right;
 }
 
 .menu ul li {
     display: inline-block;
+    position: relative;
+    text-align: center;
 
 }
-
-
+.menu ul li ul{
+    position: absolute;
+    background: #ddd;
+    width: 200px;
+    left: -41px;
+    display: none;
+}
+.menu ul li ul li ul{
+        position: absolute;
+        left: 100%;
+        top: 15px;
+}
+.menu ul li ul li{
+    width: 100%;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
 .menu ul li a{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight:500;
     font-size: 15px;
-    color: #ffffff;
+    color: #0a0a0ad2;
     text-transform: capitalize;
-    padding: 0 20px;
+    padding: 0 30px;
+    display: block;
+
+}
+.menu ul li a:hover{
+    background:aqua;
 }
 
 
