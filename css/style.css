@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.common-display {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ====================== header part start ================== */
+.menu{
+    background:royalblue;
+    line-height: 50px;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+}
+
+/* ====================== header part end ================== */
+
+
+
+
+
+
+/* ====================== header part start ================== */
+/* ====================== header part end ================== */
+/* ====================== header part start ================== */
+/* ====================== header part end ================== */
+/* ====================== header part start ================== */
+/* ====================== header part end ================== */
